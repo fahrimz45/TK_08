@@ -14,7 +14,7 @@ int main(){
     scanf("%d", &mode);
 
     switch(mode){
-        case add:
+        case add: // addition
             float a1, b1;
             printf("First number: ");
             scanf("%f", &a1);
@@ -22,7 +22,7 @@ int main(){
             scanf("%f", &b1);
             printf("Result: %f\n", a1 + b1 );
             break;
-        case sub:
+        case sub: // subtraction
             float a2, b2;
             printf("First number: ");
             scanf("%f", &a2);
