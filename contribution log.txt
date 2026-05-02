@@ -1,0 +1,4 @@
+Calculator contribution
+Fahri: Addition and subtraction
+Hibban: Multiplication and division
+
