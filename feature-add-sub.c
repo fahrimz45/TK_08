@@ -14,28 +14,6 @@ int main(){
     scanf("%d", &mode);
 
     switch(mode){
-        case mul:
-            float a3, b3;
-            printf("First number: ");
-            scanf("%f", &a3);
-            printf("Second number: ");
-            scanf("%f", &b3);
-            printf("Result: %.2f\n", a3 * b3);
-            break;
-
-        case div:
-            float a4, b4;
-            printf("First number: ");
-            scanf("%f", &a4);
-            printf("Second number: ");
-            scanf("%f", &b4);
-            
-            // Validasi input untuk mencegah error division by zero
-            if (b4 == 0) {
-                printf("Error: Division by zero is not allowed.\n");
-            } else {
-                printf("Result: %.2f\n", a4 / b4);
-            }
         case add: // addition
             float a1, b1;
             printf("First number: ");
