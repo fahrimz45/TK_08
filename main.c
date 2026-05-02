@@ -36,6 +36,25 @@ int main(){
             } else {
                 printf("Result: %.2f\n", a4 / b4);
             }
+        case add: // addition
+            float a1, b1;
+            printf("First number: ");
+            scanf("%f", &a1);
+            printf("Second number: ");
+            scanf("%f", &b1);
+            printf("Result: %f\n", a1 + b1 );
+            break;
+        case sub: // subtraction
+            float a2, b2;
+            printf("First number: ");
+            scanf("%f", &a2);
+            printf("Second number:");
+            scanf("%f", &b2);
+            printf("Result: %.2f\n", a2 - b2);
+            break;
+            
+        default:
+            printf("Invalid mode\n");
             break;
     }
 
