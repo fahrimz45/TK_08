@@ -10,7 +10,9 @@ int main(){
     } mode;
 
     printf("Calculator\n");
-    printf("Select mode: 0. Add, 1. Sub, 2. Mul, 3. Div\n");
+    printf("0. Addition 1. Subtraction 2. Multiplication 3. Division\n");
+    printf("Select mode: ");
+
     scanf("%d", &mode);
 
     switch(mode){
@@ -36,6 +38,8 @@ int main(){
             } else {
                 printf("Result: %.2f\n", a4 / b4);
             }
+
+            break;
         case add: // addition
             float a1, b1;
             printf("First number: ");
